@@ -1,0 +1,144 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#header_menu{
+	width: 100%;
+	height: 75px;
+	background-color: white;
+}
+#icon{
+	height: 25px;
+	margin: 25px 25px 25px 100px;
+	float: left;
+}
+#header_menu_options{
+	float: right;
+	width: 50%;
+}
+.menu_option{
+	float: left;
+	width: 20%;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px 0;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+.menu_option:hover{
+	cursor: pointer;
+	color: #ffd800;
+}
+.dropMenu{
+	width: 20%;
+	background: #efefef;
+	Position: absolute;
+	font-size: 90%;
+	top: 75px;
+	display: none;
+}
+.dropMenu_option{
+	margin-left: 20px;
+}
+#SolutionMenu{
+	right: 20%;
+}
+#ResourceMenu{
+	right: 10%;
+}
+.dropMenu:hover{
+	cursor: pointer;
+}
+.dropMenu_option:hover {
+	cursor: pointer;
+	color: #ffd800;
+}
+#header{
+	width: 100%;
+	height: 575px;
+	background-image: url("https://marketingland.com/wp-content/ml-loads/2017/05/celebrate-win-happy-employees-team-ss-1920-800x450.jpg"); 
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: auto 575px;
+	border-bottom: 1px solid #b2b2b2;
+}
+#header_form{
+	width: 500px;
+	height: 500px;
+	background: white;
+	border-radius: 3px;
+	position: absolute;
+	margin: auto;
+	top: 50px; left: 100px; bottom: 0px;
+	color: #5b5b5b;
+	box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.5);
+	border: 1px solid #b2b2b2;
+}
+#header_form h1{
+	margin: 50px 50px 0 50px;
+	font-size: 75px;
+}
+#small_head_text{
+	margin: 25px 50px 0 50px;
+	font-size: 15px;
+}
+#email_header{
+	margin: 35px 0 35px 50px;
+	width: 250px;
+	height: 40px;
+	border-radius: 3px;
+	float: left;
+	border: 1px solid #c3c3c3;
+	text-align: center;
+	font-size: 16px;
+}
+#submit_header{
+	width: 140px;
+	margin-left: 10px;
+	margin-top: 35px;
+	border-radius: 3px;
+	background: #2292bf;
+	color: white;
+	float: left;
+	text-align: center;
+	padding: 11px 0;
+	font-size: 18px;
+}
+#google_header{
+	width: 250px;
+	margin: 0px 25px;
+	border-radius: 5px;
+	color: #2292bf;
+	border: 1px solid #2292bf;
+	float: right;
+	text-align: center;
+	padding: 11px 0;
+	font-size: 18px;
+	box-shadow: 2px 2px 2px #b2b2b2;
+}
+#terms_header{
+	width: 140px;
+	height: 50px;
+	margin: 0px 0 0 50px;
+	font-size: 10px;
+	color: #bfbfbf;
+}
+#submit_header:hover , #email_header:hover {
+	cursor: pointer;
+	background: white;
+	color: #2292bf;
+	border: 1px solid #2292bf;
+}
+#terms_header:hover{
+	cursor: pointer;
+	color: #9b9b9b;
+}
+#google_header:hover{
+	cursor: pointer;
+	background: #96c0d1;
+	color: white;
+	border: none;
+	box-shadow: 2px 2px 2px #a8a8a8;
+}
